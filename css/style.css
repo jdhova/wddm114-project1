@@ -30,8 +30,9 @@
   padding-left: 100px;
 }
 
-.button1 {
+.button-header {
   height: 50px;
+  padding: 18px;
   width: 150px;
   border-radius: 10px;
   font-size: 16px;
@@ -43,7 +44,11 @@
   border-radius: 30px;
 }
 
-.button1 a {
+.info-header {
+  padding: 90px;
+}
+
+.info-header a {
   text-decoration: none;
   color: var(--black);
 }
@@ -57,7 +62,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 90vh;
+  height: 80vh;
 }
 
 .section-1 h2,
@@ -105,10 +110,12 @@ button {
   align-self: center;
 }
 
+.info-button1,
 .info-button2 {
-  padding: 50px;
+  padding: 90px;
 }
 
+.button1,
 .button2 {
   padding: 18px;
   margin-top: 70px;
@@ -121,29 +128,12 @@ button {
   text-decoration: none;
 }
 
+.section-1 a,
 .section-2 a {
   color: var(--white);
   cursor: pointer;
   text-decoration: none;
 }
-
-/* .section-2 button {
-  height: 40px;
-  width: 160px;
-  border-radius: 30px;
-  font-size: 16px;
-  font-family: var(--fontp);
-  background-color: var(--black);
-  color: var(--white);
-  margin-right: 150px;
-}
-
-.section-2 button a {
-  text-decoration: none;
-  color: var(--white);
-} */
-
-/* section 2 ends  */
 
 /* section 3 starts  */
 
@@ -214,7 +204,7 @@ button {
 }
 
 /* section 3 ends  */
-/* footer  */
+/* footer starts */
 .footer {
   display: flex;
   flex-direction: column;
