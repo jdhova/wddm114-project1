@@ -105,7 +105,29 @@ button {
   align-self: center;
 }
 
-.section-2 button {
+.info-button2 {
+  padding: 50px;
+}
+
+.button2 {
+  padding: 18px;
+  margin-top: 70px;
+  height: 45px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-family: var(--fontp);
+  background-color: var(--black);
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.section-2 a {
+  color: var(--white);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* .section-2 button {
   height: 40px;
   width: 160px;
   border-radius: 30px;
@@ -119,7 +141,7 @@ button {
 .section-2 button a {
   text-decoration: none;
   color: var(--white);
-}
+} */
 
 /* section 2 ends  */
 
