@@ -152,15 +152,28 @@ button {
   background-color: white;
 }
 
-.section-3 button {
+.image-4-content,
+.image-5-content,
+.image-6-content,
+.image-7-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-button3 {
+  padding: 70px;
+}
+.button3 {
+  padding: 18px;
   margin-top: 70px;
   height: 45px;
-  width: 190px;
   border-radius: 30px;
   font-size: 16px;
   font-family: var(--fontp);
   background-color: var(--orange);
-  margin-right: 150px;
+  margin-right: 10px;
   text-decoration: none;
 }
 
